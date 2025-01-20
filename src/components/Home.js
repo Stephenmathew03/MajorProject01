@@ -10,16 +10,20 @@ export default class Home extends Component {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            height: "80vh",
+            height: "75vh",
           }}
         >
           <div style={{ width: "50%" }}>
             <Lottie animationData={car} />
           </div>
         </div>
-        <div style={{ textAlign: "center" }}>
-          <h1 style={{ fontSize: "2.5rem", fontWeight: "bold" }}>HotelGenie</h1>
-          <p>Making your hotel wishes come true.</p>
+        <div style={{ textAlign: "center" }} className="mainbody">
+          <h1 style={{ fontSize: "3.5rem", fontWeight: "bolder" }}>
+            HotelGenie
+          </h1>
+          <p style={{ fontSize: "2rem" }}>
+            Making your hotel wishes come true.
+          </p>
         </div>
       </div>
     );
