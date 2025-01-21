@@ -2,6 +2,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbarcomp from "./components/Navbarcomp";
 import { Auth0Provider } from "@auth0/auth0-react";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
         }}
       >
         <Navbarcomp />
+        <Footer />
       </Auth0Provider>
     </>
   );
