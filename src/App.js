@@ -11,12 +11,14 @@ function App() {
       domain="dev-bq5st8x3jsbzfven.us.auth0.com"
       clientId="N9NMRwpRzRSFAioJL7acIj3SmWrCaQ8K"
       authorizationParams={{
-        redirect_uri: window.location.origin,
+        redirect_uri: window.location.origin
       }}
     >
       <Router>
-        <Navbarcomp />
-        <Footer />
+        <div className="app-container">
+          <Navbarcomp />
+          <Footer />
+        </div>
       </Router>
     </Auth0Provider>
   );
